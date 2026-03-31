@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.number {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  color: white;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
